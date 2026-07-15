@@ -309,7 +309,7 @@ h3 {
 .contact-box {
   background: white;
   color: var(--text);
-  border-radius: 9px;
+  border-radius: 0;
   box-shadow: var(--shadow);
 }
 
