@@ -210,6 +210,12 @@ img {
     url("Images/GHEA6.JPG") center/cover no-repeat;
 }
 
+.media-hero {
+  background:
+    linear-gradient(135deg, rgba(2, 33, 105, 0.8) 0%, rgba(4, 30, 66, 0.82) 100%),
+    url("Images/GHEA2.JPG") center/cover no-repeat;
+}
+
 .hero-media {
   display: none;
 }
@@ -574,8 +580,8 @@ h3 {
 .wrap-c {
   bottom: 0;
   left: 0;
-  width: 13rem;
-  height: 13rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .collage-img {
