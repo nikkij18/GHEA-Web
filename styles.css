@@ -377,6 +377,16 @@ h3 {
   gap: 1.25rem;
 }
 
+.tang-hub-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 860px) {
+  .tang-hub-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .audience-card {
   padding: 1.5rem;
 }
