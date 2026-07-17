@@ -204,6 +204,12 @@ img {
   z-index: 1;
 }
 
+.people-hero {
+  background:
+    linear-gradient(135deg, rgba(2, 33, 105, 0.8) 0%, rgba(4, 30, 66, 0.82) 100%),
+    url("Images/GHEA6.JPG") center/cover no-repeat;
+}
+
 .hero-media {
   display: none;
 }
