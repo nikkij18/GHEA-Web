@@ -53,6 +53,14 @@ img {
   margin: 0 auto;
 }
 
+.bar-full {
+  width: 100%;
+  margin: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
+}
+
 .site-header {
   background: white;
   border-bottom: 1px solid var(--border);
