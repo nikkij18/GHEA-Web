@@ -56,9 +56,15 @@ img {
 .bar-full {
   width: 100%;
   margin: 0;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: max(1rem, calc((100% - 1120px) / 2));
+  padding-right: 3rem;
   box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .bar-full {
+    padding-right: 1rem;
+  }
 }
 
 .site-header {
